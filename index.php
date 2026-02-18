@@ -1,0 +1,457 @@
+<?php include "includes/header.php"; ?>
+
+<!-- HERO SECTION -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-lg-6">
+        <h1 class="hero-title">
+          Hi, I'm <span class="neon-text">Manikandan</span> 👋
+        </h1>
+
+        <p class="hero-subtitle mt-3">
+          A passionate <span class="neon-text fw-bold">Fullstack Developer</span> who builds modern websites,
+          Android apps, and powerful backend systems.
+        </p>
+
+        <div class="mt-4 d-flex gap-3 flex-wrap">
+          <a href="projects.php" class="neon-btn">View Projects</a>
+
+          <a href="contact.php" class="btn rounded-pill px-4 py-2"
+            style="border: 1px solid #0077ff; color:#0077ff; font-weight:600;align-content: center;">
+            Hire Me
+          </a>
+
+          <a href="download_resume.php" class="neon-btn">
+            <i class="bi bi-download"></i> Download Resume
+          </a>
+        </div>
+
+
+
+        <div class="mt-5 row g-3">
+          <div class="col-md-4">
+            <div class="glass-card text-center">
+              <h4 class="neon-text fw-bold">2 +</h4>
+              <p class="mb-0 small">Years Experience</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="glass-card text-center">
+              <h4 class="neon-text fw-bold">15+</h4>
+              <p class="mb-0 small">Projects Done</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="glass-card text-center">
+              <h4 class="neon-text fw-bold">100%</h4>
+              <p class="mb-0 small">Passion</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 text-center mt-5 mt-lg-0">
+        <img src="assets/img/man.png" class="profile-img" alt="Profile Image">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section class="py-5">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2 class="fw-bold section-title">
+        My <span class="neon-text">Top Skills</span>
+      </h2>
+      <p class="text-dark opacity-75">
+        Here are the main technologies I use to build real-world applications.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-lg-3 col-md-6">
+        <div class="glass-card text-center h-100">
+          <i class="bi bi-code-slash fs-1 neon-text"></i>
+          <h5 class="mt-3 fw-bold">Frontend</h5>
+          <p class="text-dark opacity-75 small">
+            HTML, CSS, Bootstrap, JavaScript, Angular
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="glass-card text-center h-100">
+          <i class="bi bi-database-fill fs-1 neon-text"></i>
+          <h5 class="mt-3 fw-bold">Backend</h5>
+          <p class="text-dark opacity-75 small">
+            PHP, C# .NET, Web API, MySQL, PHPMyAdmin
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="glass-card text-center h-100">
+          <i class="bi bi-phone-fill fs-1 neon-text"></i>
+          <h5 class="mt-3 fw-bold">Android</h5>
+          <p class="text-dark opacity-75 small">
+            Java, Flutter, Firebase, API Integration, Payment Gateway
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="glass-card text-center h-100">
+          <i class="bi bi-cloud-fill fs-1 neon-text"></i>
+          <h5 class="mt-3 fw-bold">Deployment</h5>
+          <p class="text-dark opacity-75 small">
+            GitHub, Hosting, Server Deployment, Domain Setup
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PROJECTS SECTION -->
+<section class="py-5">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2 class="fw-bold section-title">
+        Featured <span class="neon-text">Projects</span>
+      </h2>
+      <p class="text-dark opacity-75">
+        Some of my best projects that showcase my skills and development experience.
+      </p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+  <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+    <a href="https://sahanashomefoods.com/" target="_blank" class="project-logo-card">
+      <img src="assets/img/sahanas.jpg" alt="Sahana Logo" class="project-logo-img">
+      
+    </a>
+    <h6 class="mt-2 fw-bold text-dark">Sahana's Home Foods</h6>
+  </div>
+
+  <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+    <a href="https://hotelkar.com/" target="_blank" class="project-logo-card">
+      <img src="assets/img/Hotelkar.jpeg" alt="Sahana Logo" class="project-logo-img">
+      
+    </a>
+    <h6 class="mt-2 fw-bold text-dark text-center">Hotelkar <br> App & Website</h6>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+    <a href="https://opqr.in/" target="_blank" class="project-logo-card">
+      <img src="assets/img/opqr_png.png" alt="Sahana Logo" class="project-logo-img">
+      
+    </a>
+    <h6 class="mt-2 fw-bold text-dark text-center">OPQR</h6>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+    <a href="https://shopsooty.com/" target="_blank" class="project-logo-card">
+      <img src="assets/img/Shopscooty.png" alt="Sahana Logo" class="project-logo-img">
+      
+    </a>
+    <h6 class="mt-2 fw-bold text-dark text-center">Shopsooty <br> App & Website</h6>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+    <a href="https://varnikavastra.in/" target="_blank" class="project-logo-card">
+      <img src="assets/img/varnikavastra_1.jpeg" alt="Sahana Logo" class="project-logo-img">
+      
+    </a>
+    <h6 class="mt-2 fw-bold text-dark text-center">Varnika Vastra</h6>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+    <a href="https://umayalsarees.com.com/" target="_blank" class="project-logo-card">
+      <img src="assets/img/umayal_logo.png" alt="Sahana Logo" class="project-logo-img">
+      
+    </a>
+    <h6 class="mt-2 fw-bold text-dark">Umayal Sarees</h6>
+  </div>
+
+</div>
+
+
+    <div class="text-center mt-5">
+      <a href="projects.php" class="neon-btn">View All Projects</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHAT I DO SECTION -->
+<section class="py-5">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2 class="fw-bold section-title">
+        What <span class="neon-text">I Do</span>
+      </h2>
+      <p class="text-dark opacity-75">
+        I build complete applications with attractive UI and powerful backend.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-lg-4">
+        <div class="glass-card h-100">
+          <h5 class="fw-bold neon-text"><i class="bi bi-laptop"></i> Web Development</h5>
+          <p class="text-dark opacity-75 mt-2">
+            I develop responsive websites and web apps using PHP, Angular, Bootstrap, and modern UI design.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="glass-card h-100">
+          <h5 class="fw-bold neon-text"><i class="bi bi-phone"></i> Android Development</h5>
+          <p class="text-dark opacity-75 mt-2">
+            I create Android applications with cart system, payment integrations, Firebase, and API-based features.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="glass-card h-100">
+          <h5 class="fw-bold neon-text"><i class="bi bi-shield-lock"></i> Backend & APIs</h5>
+          <p class="text-dark opacity-75 mt-2">
+            I build backend APIs, admin panels, database integration, and secure payment gateways.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- PROFESSIONAL EXPERIENCE SECTION -->
+<section class="py-5">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2 class="fw-bold section-title">
+        Professional <span class="neon-text">Experience</span>
+      </h2>
+      <p class="text-dark opacity-75">
+        My work experience in software development across multiple companies and projects.
+      </p>
+    </div>
+
+    <div class="experience-box">
+
+    <!-- EXPERIENCE 1 -->
+      <div class="experience-card glass-card mb-4">
+        <div class="d-flex justify-content-between flex-wrap">
+          <h5 class="fw-bold neon-text mb-1">Business Development Specialist</h5>
+          <span class="experience-date">2022 - 2023</span>
+        </div>
+
+        <p class="fw-semibold mb-1">OCTS - IT & SOFTWARE - Karaikudi</p>
+
+        <ul class="experience-list">
+          <li>Worked on support team and interacted with clients</li>
+          <li>Assisted team with various aspects of projects</li>
+          <li>Monitor client feedback and support trends to suggest improvements and enhance service delivery.</li>
+          <!-- <li>Worked on bug fixing, optimization, and app deployment support.</li> -->
+        </ul>
+      </div>
+
+      <!-- EXPERIENCE 2 -->
+      <div class="experience-card glass-card mb-4">
+        <div class="d-flex justify-content-between flex-wrap">
+          <h5 class="fw-bold neon-text mb-1">Android Developer</h5>
+          <span class="experience-date">2023 - 2024</span>
+        </div>
+
+        <p class="fw-semibold mb-1">Qads - The Didital Marketing & Software Development Solution - Karaikudi</p>
+
+        <ul class="experience-list">
+          <li>Developed Android applications using Java with modern UI and smooth performance.</li>
+          <li>Integrated APIs, Firebase authentication, and push notifications.</li>
+          <li>Implemented payment gateway integrations like Razorpay and COD workflows.</li>
+          <li>Worked on bug fixing, optimization, and app deployment support.</li>
+        </ul>
+      </div>
+
+      <!-- EXPERIENCE 3 -->
+      <div class="experience-card glass-card mb-4">
+        <div class="d-flex justify-content-between flex-wrap">
+          <h5 class="fw-bold neon-text mb-1">COURSE - Fullstack Web Development</h5>
+          <span class="experience-date"> 2024</span>
+        </div>
+
+        <p class="fw-semibold mb-1">Letsify Sigma4Solutions - Karaikudi</p>
+
+        <ul class="experience-list">
+          <li>Completed a Certified Full Stack Web Development course with hands-on experience in UI/UX design using Figma and front-end development using HTML, CSS, Bootstrap, JavaScript, and Angular. </li>
+          <li>Also gained backend development knowledge in C# and ASP.NET (.NET) including database connectivity and API integration.</li>
+          <!-- <li>Implemented payment gateway integrations like Razorpay and COD workflows.</li>
+          <li>Worked on bug fixing, optimization, and app deployment support.</li> -->
+        </ul>
+      </div>
+
+      <!-- EXPERIENCE 4 -->
+<div class="experience-card glass-card mb-4">
+  <div class="d-flex justify-content-between flex-wrap">
+    <h5 class="fw-bold neon-text mb-1">Fullstack Developer</h5>
+    <span class="experience-date">2025 - Present</span>
+  </div>
+
+  <p class="fw-semibold mb-1">Haptrend Media - Karaikudi</p>
+
+  <ul class="experience-list">
+    <li>Developed dynamic websites using PHP, MySQL, Bootstrap with modern responsive UI.</li>
+    <li>Built admin dashboards, order management systems, and product modules.</li>
+    <li>Developed Android applications with API integration for real-time data handling.</li>
+    <li>Integrated payment gateways such as PhonePe and Razorpay for online transactions.</li>
+    <li>Worked on deployment, hosting setup, and domain configuration for live projects.</li>
+  </ul>
+</div>
+
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- MY SKILLS SECTION -->
+<section class="py-5" id="skills">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2 class="fw-bold section-title">
+        My <span class="neon-text">Skills</span>
+      </h2>
+      <p class="text-dark opacity-75">
+        Technologies I use to build modern websites and applications.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- FRONTEND -->
+      <div class="col-lg-4 col-md-6">
+        <div class="glass-card skill-box h-100">
+          <h5 class="fw-bold neon-text mb-3">
+            <i class="bi bi-code-slash"></i> Frontend
+          </h5>
+
+          <div class="skill-tags">
+            <span class="skill-badge">HTML5</span>
+            <span class="skill-badge">CSS3</span>
+            <span class="skill-badge">Bootstrap</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">Angular</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- BACKEND -->
+      <div class="col-lg-4 col-md-6">
+        <div class="glass-card skill-box h-100">
+          <h5 class="fw-bold neon-text mb-3">
+            <i class="bi bi-database-fill"></i> Backend
+          </h5>
+
+          <div class="skill-tags">
+            <span class="skill-badge">PHP</span>
+            <span class="skill-badge">MySQL</span>
+            <span class="skill-badge">C#</span>
+            <span class="skill-badge">.NET</span>
+            <span class="skill-badge">REST API</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ANDROID -->
+      <div class="col-lg-4 col-md-6">
+        <div class="glass-card skill-box h-100">
+          <h5 class="fw-bold neon-text mb-3">
+            <i class="bi bi-phone-fill"></i> Android
+          </h5>
+
+          <div class="skill-tags">
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">Android Studio</span>
+            <span class="skill-badge">Firebase</span>
+            <span class="skill-badge">API Integration</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAYMENT -->
+      <div class="col-lg-6 col-md-6">
+        <div class="glass-card skill-box h-100">
+          <h5 class="fw-bold neon-text mb-3">
+            <i class="bi bi-credit-card-2-front-fill"></i> Payment Gateways
+          </h5>
+
+          <div class="skill-tags">
+            <span class="skill-badge">Razorpay</span>
+            <span class="skill-badge">PhonePe</span>
+            <!-- <span class="skill-badge">PayPal</span>
+            <span class="skill-badge">Stripe</span> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- TOOLS / DEPLOYMENT -->
+      <div class="col-lg-6 col-md-6">
+        <div class="glass-card skill-box h-100">
+          <h5 class="fw-bold neon-text mb-3">
+            <i class="bi bi-cloud-arrow-up-fill"></i> Tools & Deployment
+          </h5>
+
+          <div class="skill-tags">
+            <span class="skill-badge">GitHub</span>
+            <span class="skill-badge">Hosting</span>
+            <span class="skill-badge">Domain Setup</span>
+            <span class="skill-badge">cPanel</span>
+            <span class="skill-badge">Postman</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- CALL TO ACTION -->
+<section class="py-5">
+  <div class="container">
+    <div class="glass-card text-center">
+      <h2 class="fw-bold neon-text">Want to Work With Me?</h2>
+      <p class="text-dark opacity-75 mt-3">
+        I'm available for full-time roles, freelance projects, and web/app development work.
+        Let's build something amazing together 🚀
+      </p>
+
+      <div class="mt-4">
+        <a href="contact.php" class="neon-btn">
+          <i class="bi bi-chat-dots-fill"></i> Contact Me
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<?php include "includes/footer.php"; ?>
